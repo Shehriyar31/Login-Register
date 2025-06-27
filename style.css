@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(bg.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-form{
+    /* background-color: #fff; */
+    background: transparent;
+    border: 2px solid white;
+    backdrop-filter: blur(25px);
+    padding: 20px 40px;
+    border-radius: 20px;
+    color: white;
+    width: 420px;
+}
+
+.heading h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 2.4rem;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.input-group {
+    position: relative;
+}
+
+.input-group input{
+    position: relative;
+    margin: 15px 0px;
+    padding: 10px 40px 10px 40px;
+    /* border-radius: 20px; */
+    outline: none;
+    border: 2px solid black;
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid white;
+    width: 100%;
+    font-family: 'Poppins' , sans-serif;
+    color: white;
+    font-weight: 400;
+}
+
+.input-group input:focus{
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+.input-group input ::placeholder{
+    color: white;
+}
+
+.input-group i{
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+    color: white;
+    font-size: 18px;
+}
+
+.input-group select {
+    width: 100%;
+    padding: 10px 40px 10px 40px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    border-radius: 0;
+    outline: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    cursor: pointer;
+}
+
+.input-group select:focus {
+    border-bottom: 2px solid white;
+    border-radius: 20px;
+    outline: none;
+    background: transparent;
+    color: black;
+}
+
+.reg-link{
+    text-align: center;
+}
+
+.reg-link p{
+    /* font-size: 17px; */
+    font-family: 'Poppins' , sans-serif;
+}
+
+.reg-link a{
+    text-decoration: underline;
+    color: white;
+    margin-left: 5px;
+    font-family: 'Poppins' , sans-serif;
+}
+
+.btn{
+    text-align: center;
+}
+
+.btn button{
+    cursor: pointer;
+    margin: 10px 0px;
+    padding: 3px 40px;
+    border-radius: 20px;
+    outline: none;
+    border: 2px solid white;
+    background: none;
+    color: white;
+    font-family: 'Poppins' , sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.btn button:hover{
+    background-color: white;
+    color: black;
+}
